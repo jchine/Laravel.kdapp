@@ -1,0 +1,49 @@
+{
+  "devMode": true,
+  "experimental": false,
+  "authorNick": "emirkarsiyakali",
+  "multiple": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": false,
+  "openWith": "lastActive",
+  "behavior": "application",
+  "version": "0.1",
+  "repo": "git://github.com/emir/Laravel.kdapp.git",
+  "name": "Laravel",
+  "identifier": "com.koding.apps.laravel",
+  "path": "~/Applications/Laravel.kdapp",
+  "homepage": "emirkarsiyakali.kd.io/laravel",
+  "author": "Emir Kar&#351;&#305;yakal&#305;",
+  "repository": "git://github.com/emirkarsiyakali/laravel.kdapp.git",
+  "description": "Laravel: the elegant PHP framework for web artisans. Start enjoying development again with Koding...",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./common.coffee",
+          "./dashboardpane.coffee",
+          "./installpane.coffee",
+          "./main.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/laravel-icon-128.png",
+    "256": "./resources/laravel-icon-256.png"
+  },
+    "screenshots": [
+    "./resources/laravel_kdapp1.png",
+    "./resources/laravel_kdapp2.png"
+  ],
+  "menu": [],
+  "fileTypes": []
+}
