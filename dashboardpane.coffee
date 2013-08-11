@@ -182,7 +182,7 @@ class LaravelInstalledAppListItem extends KDListItemView
     {nickname} = KD.whoami().profile
     """
     {{> @delete}}
-    <a target='_blank' class='name-link' href='#'> {{#(name)}} </a>
+    {{#(name)}}
     <div class="instance-block">
         Laravel Path: /Users/#{nickname}/Web/{{#(name)}}
         <br>
