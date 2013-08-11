@@ -1,5 +1,5 @@
 {
-  "devMode": true,
+  "devMode": false,
   "experimental": false,
   "authorNick": "emirkarsiyakali",
   "multiple": false,
@@ -14,7 +14,7 @@
   "identifier": "com.koding.apps.laravel",
   "path": "~/Applications/Laravel.kdapp",
   "homepage": "emirkarsiyakali.kd.io/laravel",
-  "author": "Emir Kar&#351;&#305;yakal&#305;",
+  "author": "Emir Karsiyakali",
   "repository": "git://github.com/emirkarsiyakali/laravel.kdapp.git",
   "description": "Laravel: the elegant PHP framework for web artisans. Start enjoying development again with Koding...",
   "category": "web-app",
