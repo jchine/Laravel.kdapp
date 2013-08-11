@@ -177,7 +177,7 @@ class LaravelInstalledAppListItem extends KDListItemView
 
   pistachio:->
     {path, timestamp, domain, name, laravelversion} = @getData()
-    url = "https://#{domain}/#{path}"
+    url = "https://#{domain}/{{#(name)}}/public/"
     instancesDir = "laravelapp"
     {nickname} = KD.whoami().profile
     """
