@@ -188,7 +188,7 @@ class LaravelInstalledAppListItem extends KDListItemView
         <br>
         Laravel Version: {{#(laravelversion)}}
         <br>
-        URL: <a href='#{nickname}.kd.io/{{#(name)}}/public/'></a>#{nickname}.kd.io/{{#(name)}}/public/</a> 
+        URL: <a href='https://#{nickname}.kd.io/{{#(name)}}/public/'>#{nickname}.kd.io/{{#(name)}}/public/</a> 
         <br>
         {{> @ArtisanButton}}
     </div>
