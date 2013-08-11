@@ -177,18 +177,18 @@ class LaravelInstalledAppListItem extends KDListItemView
 
   pistachio:->
     {path, timestamp, domain, name, laravelversion} = @getData()
-    url = "https://#{domain}/{{#(name)}}/public/"
+    url = "https://#{domain}/#{path}"
     instancesDir = "laravelapp"
     {nickname} = KD.whoami().profile
     """
     {{> @delete}}
-    <a target='_blank' class='name-link' href='#{url}'> {{#(name)}} </a>
+    <a target='_blank' class='name-link' href='#'> {{#(name)}} </a>
     <div class="instance-block">
         Laravel Path: /Users/#{nickname}/Web/{{#(name)}}
         <br>
         Laravel Version: {{#(laravelversion)}}
         <br>
-        URL: #{nickname}.kd.io/{{#(name)}}/public/ 
+        URL: <a href='#{nickname}.kd.io/{{#(name)}}/public/'></a>#{nickname}.kd.io/{{#(name)}}/public/</a> 
         <br>
         {{> @ArtisanButton}}
     </div>

@@ -8,7 +8,7 @@
   "forceUpdate": false,
   "openWith": "lastActive",
   "behavior": "application",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repo": "git://github.com/emir/Laravel.kdapp.git",
   "name": "Laravel",
   "identifier": "com.koding.apps.laravel",
